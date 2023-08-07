@@ -52,6 +52,6 @@ app.get('/mode', (req, res) => {
     return res.json({response:{ operation: "mode", value: mode}})
 })
 
-app.listen(3002, () => {
-    console.log("Now listening on port 3002")
+app.listen(3000, () => {
+    console.log("Now listening on port 3000")
 })
